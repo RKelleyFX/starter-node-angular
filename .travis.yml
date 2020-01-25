@@ -8,6 +8,7 @@ cache:
 sudo: false
 install:
   - npm install
+script: 'true'
 deploy:
   - provider: script
     skip_cleanup: true
